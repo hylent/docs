@@ -150,6 +150,11 @@
 * subscribe - Subscribe to channels
 * pubsub - Introspection into the pub/sub subsystem
 
+## Transactions
+
+* multi, exec, discard - Enter and exit transactional mode
+* watch, unwatch - Watches a key for modifications by another client.
+
 ## Scripting
 
 * eval - Evaluate a LUA script serverside
